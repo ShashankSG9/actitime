@@ -2,4 +2,9 @@ All types of Locators
 
 driver.findelementBy.id
 driver.findelementBy.name
-driver.findelementBy.linktext1
+driver.findElementBy.class
+driver.findelementBy.linktext
+driver.findelementBy.partiallinktext
+driver.findElementBy.tagname
+driver.findElementBy.css
+driver.findElementBy.xpath
