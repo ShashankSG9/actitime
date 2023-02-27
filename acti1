@@ -8,3 +8,21 @@ driver.findelementBy.partiallinktext
 driver.findElementBy.tagname
 driver.findElementBy.css
 driver.findElementBy.xpath
+
+WebDriver driver=new ChromeDriver();
+driver.manage().window().maximize();
+driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+WebElement ele=driver.findElement(By.id("")).click();
+WebElement ele=driver.findElement(By.linkText("")).sendKeys();
+WebElement ele=driver.findElement(By.name(""));
+WebElement ele=driver.findElement(By.class(""));
+WebElement ele=driver.findElement(By.tagName(""));
+WebElement ele=driver.findElement(By.partialLinkText(""));
+WebElement ele=driver.findElement(By.css(""));
+WebElement ele=driver.findElement(By.xpath(""));
+
+<ListWebElement> ele=driver.findElements(By.xpath(""));
+
+javascriptExecutor js=(javascriptExecutor)driver;
+
+TakesScreenshot ts=(TakesScreenshot)driver;
